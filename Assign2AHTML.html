@@ -36,23 +36,6 @@ ul.topnav li a.active {
  ul.topnav li.left {float: left;
 
 }
-@media screen and (max-width: 320px) {
-  /* comes into effect for screens less than or equal to 320 pixels */
-  #media1 {
-    width: 120px ;
-  }
-}
-@media screen and (min-width: 321px) and (max-width: 480px) {
-  /* comes into effect for screens between 321 and 480 pixels (inclusive) */
-  #media2 {
-    width: 320px ;
-  }
-}
-@media screen and (min-width: 481px) {
-  /* comes into effect for screens larger than or equal to 481 pixels */
-  #media3  {
-    width: 480px ;
-  }
 
  {
   ul.topnav li.right, 
@@ -62,7 +45,7 @@ ul.topnav li a.active {
 .format {
  margin: 20px;
  }
-.center {
+#center {
  font-family: "Times New Roman", Times, serif;
  text-align:center;
  font-size: 1.8vw;
@@ -89,9 +72,7 @@ ul.topnav li a.active {
   <li><a href="https://rylee1999.github.io/Assign2HTML.html">Cover Letter</a></li>
 </ul>
 <div class="format">
-<h1 class= "center"> Rylee Goerlitz </h1>
-<p class= "right"> (289) 896-2328  <br>   RyleeG123@gmail.com  </p>
-<p class= "font"> 122 Dorchester Dr. <br> Niagara Falss, Ontario<br> L2W 8H5 </p>
+<h1 id= "center"> Rylee Goerlitz </h1>
 <p class= "font"> <b>HIGHLIGHTS</p></b>
 <hr/>
 <ul class= "font">
