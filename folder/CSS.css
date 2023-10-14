@@ -20,19 +20,19 @@ ul.menubar {
 
  }
  @media screen and (min-width: 601px) {
-  ul.resize li a {
+  ul.menubar li a {
    font-size: 28px;
    font-family: Arial, sans-serif;
   }
 }
 
 @media screen and (max-width: 600px) {
-  ul.resize li a {
+  ul.menubar li a {
     font-size: 8px;
     font-family: Arial, sans-serif;
   }
 }
-  }
+  
  ul.menubar li a:hover:not(.active) {
    background-color: white;
  }
