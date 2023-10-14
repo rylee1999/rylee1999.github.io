@@ -18,7 +18,7 @@ ul.menubar {
  padding: 15px 20px;
  text-decoration: none;
  font-family: Arial, sans-serif;
- font-size: 1vw;
+ font-size: 1.5vw;
  }
  
  ul.menubar li a:hover:not(.active) {
@@ -34,7 +34,7 @@ ul.menubar {
 #center {
  font-family: Arial, sans-serif;
  text-align:center;
- font-size: 3.5vw;
+ font-size: 3vw;
  margin-bottom: 15px;
  margin-top: 45px;
  }
