@@ -1,4 +1,3 @@
-<style>
 body {margin: 0;}
 ul.menubar {
  list-style-type: none;
@@ -102,7 +101,7 @@ ul.menubar {
     font-family: Arial, sans-serif;
   }
 }
-  }
+  
  hr.solid {
   border-top: 3px solid #bbb;
  }
@@ -111,4 +110,4 @@ ul.menubar {
  margin-right: 20px;
  }
 
-</style>
+
