@@ -1,0 +1,75 @@
+<style>
+body {margin: 0;}
+ul.menubar {
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+ overflow: hidden;
+ background-color:LightGray;
+ 
+ }
+ ul.menubar li {
+ float:left;
+ }
+ ul.menubar li a {
+ display: block;
+ color: black;
+ text-align: center;
+ padding: 20px 30px;
+ text-decoration: none;
+ font-family: Arial, sans-serif;
+ font-size: 2.5vw;
+ }
+ 
+ ul.menubar li a:hover:not(.active) {
+   background-color: white;
+ }
+.active {
+  background-color: Aquamarine;
+ }
+ ul.menubar li.left {
+ float: left;
+}
+
+#center {
+ font-family: Arial, sans-serif;
+ text-align:center;
+ font-size: 3vw;
+ margin-bottom: 15px;
+ margin-top: 45px;
+ }
+ 
+.scroll {
+  background-color: white;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 5px;
+}
+
+.scroll img {
+  padding: 10px;
+}
+.responsive  {
+ max-width: 100%;
+ height: auto;
+ margin-top: 20px;
+ margin-left: 10px;
+ margin-right: -10px;
+}
+.right {
+  font-family: Arial, sans-serif;
+  font-size: 1.8vw;
+  float: right;
+ }
+ .font {
+  font-family: Arial, sans-serif;
+  font-size: 1.8vw;
+  }
+ hr.solid {
+  border-top: 3px solid #bbb;
+ }
+ .format {
+	 margin-left: 20px;
+	 margin-right: 20px;
+ }
+</style>
