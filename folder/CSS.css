@@ -21,14 +21,14 @@ ul.menubar {
  }
  @media screen and (min-width: 601px) {
   ul.menubar li a {
-   font-size: 28px;
+   font-size: 22px;
    font-family: Arial, sans-serif;
   }
 }
 
 @media screen and (max-width: 600px) {
   ul.menubar li a {
-    font-size: 8px;
+    font-size: 10px;
     font-family: Arial, sans-serif;
   }
 }
@@ -78,7 +78,7 @@ ul.menubar {
 
 @media screen and (max-width: 600px) {
   .resize {
-    font-size: 5px;
+    font-size: 7.5px;
     font-family: Arial, sans-serif;
   }
 }
