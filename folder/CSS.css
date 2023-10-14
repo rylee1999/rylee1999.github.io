@@ -57,18 +57,17 @@ ul.menubar {
  margin-right: -10px;
 }
 
- .font {
-  font-family: Arial, sans-serif;
- }
  @media screen and (min-width: 601px) {
   .resize {
-    font-size: 25px;
+   font-size: 25px;
+   font-family: Arial, sans-serif;
   }
 }
 
 @media screen and (max-width: 600px) {
   .resize {
     font-size: 45px;
+    font-family: Arial, sans-serif;
   }
 }
   }
