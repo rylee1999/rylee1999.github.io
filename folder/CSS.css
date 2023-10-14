@@ -43,22 +43,19 @@ ul.menubar {
  float: left;
 }
 
-#center {
- 
- 
- @media screen and (min-width: 601px) {
+@media screen and (min-width: 601px) {
  #center {
+  text-align:center;
   font-size: 35px;
   font-family: Arial, sans-serif;
-  text-align:center;
   }
 }
 
 @media screen and (max-width: 600px) {
  #center  {
-   font-size: 15px;
-   font-family: Arial, sans-serif;
-   text-align:center;
+  text-align:center;
+  font-size: 15px;
+  font-family: Arial, sans-serif;
   }
 }
  margin-bottom: 15px;
