@@ -46,7 +46,7 @@ ul.menubar {
 #center {
  font-family: Arial, sans-serif;
  text-align:center;
- font-size: 3vw;
+ font-size: 2.5vw;
  margin-bottom: 15px;
  margin-top: 45px;
  }
@@ -78,7 +78,7 @@ ul.menubar {
 
 @media screen and (max-width: 600px) {
   .resize {
-    font-size: 13px;
+    font-size: 15px;
     font-family: Arial, sans-serif;
   }
 }
