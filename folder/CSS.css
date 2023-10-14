@@ -15,7 +15,7 @@ ul.menubar {
  display: block;
  color: black;
  text-align: center;
- padding: 20px 30px;
+ padding: 15px 20px;
  text-decoration: none;
  font-family: Arial, sans-serif;
  font-size: 2.5vw;
@@ -34,7 +34,7 @@ ul.menubar {
 #center {
  font-family: Arial, sans-serif;
  text-align:center;
- font-size: 3vw;
+ font-size: 5vw;
  margin-bottom: 15px;
  margin-top: 45px;
  }
@@ -56,14 +56,10 @@ ul.menubar {
  margin-left: 10px;
  margin-right: -10px;
 }
-.right {
-  font-family: Arial, sans-serif;
-  font-size: 1.8vw;
-  float: right;
- }
+
  .font {
   font-family: Arial, sans-serif;
-  font-size: 1.8vw;
+  font-size: 5vw;
   }
  hr.solid {
   border-top: 3px solid #bbb;
