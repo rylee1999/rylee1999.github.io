@@ -15,20 +15,20 @@ ul.menubar {
  display: block;
  color: black;
  text-align: center;
- padding: 15px 15px;
+ padding: 12px 12px;
  text-decoration: none;
 
  }
  @media screen and (min-width: 601px) {
   ul.resize li a {
-   font-size: 25px;
+   font-size: 28px;
    font-family: Arial, sans-serif;
   }
 }
 
 @media screen and (max-width: 600px) {
   ul.resize li a {
-    font-size: 5px;
+    font-size: 2px;
     font-family: Arial, sans-serif;
   }
 }
