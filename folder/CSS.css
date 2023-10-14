@@ -48,6 +48,7 @@ ul.menubar {
   overflow: auto;
   white-space: nowrap;
   padding: 5px;
+  margin-bottom: 20px;
 }
 
 .scroll img {
