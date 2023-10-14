@@ -1,18 +1,88 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=0.5">
+</head>
 <style>
-#myHeader {
-  background-color: lightblue;
-  color: black;
-  padding: 40px;
-  text-align: center;
+body {margin: 0;}
+ul.menubar {
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+ overflow: hidden;
+ background-color:LightGray;
+ 
+ }
+ ul.menubar li {
+ float:left;
+ }
+ ul.menubar li a {
+ display: block;
+ color: black;
+ text-align: center;
+ padding: 20px 30px;
+ text-decoration: none;
+ font-family: Arial, sans-serif;
+ font-size: 2.5vw;
+ }
+ 
+ ul.menubar li a:hover:not(.active) {
+   background-color: white;
+ }
+.active {
+  background-color: Aquamarine;
+ }
+ ul.menubar li.left {
+ float: left;
+}
+
+
+
+#center {
+ font-family: Arial, sans-serif;
+ text-align:center;
+ font-size: 3vw;
+ margin-bottom: 15px;
+ margin-top: 45px;
+ }
+ 
+.scroll {
+  background-color: white;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 5px;
+}
+
+.scroll img {
+  padding: 10px;
+}
+.responsive  {
+ max-width: 100%;
+ height: auto;
+ margin-top: 20px;
+ margin-left: 10px;
+ margin-right: -10px;
 }
 </style>
-</head>
+
 <body>
 
-<h1 id="myHeader">My Header</h1>
+<ul class="menubar">
+  <li><a class="active" href="https://rylee1999.github.io/Assign2HTML.html">About Me</a></li>
+  <li><a href="https://rylee1999.github.io/Assign2AHTML.html">Resume</a></li>
+</ul>
+<h1 id= "center"> Meet Rylee Goerlitz! </h1>
+<div class="scroll">
+  <img src="https://rylee1999.github.io/image1.jpg" class="responsive" alt="Spotted Salamander">
+  <img src="https://rylee1999.github.io/image2.jpg" class="responsive" alt="Girl Holding Milk Snake">
+  <img src="https://rylee1999.github.io/image3.jpg" class="responsive" alt="Girl Holding Gatner Snake">
+  <img src="https://rylee1999.github.io/image4.jpg" class="responsive" alt="Girl Kayaking">
+  <img src="https://rylee1999.github.io/image5.jpg" class="responsive" alt="Stonefly">
+  <img src="https://rylee1999.github.io/image6.jpg" class="responsive" alt="Girl Holding Leaf">
+</div>
 
 </body>
 </html>
+
+
+  
