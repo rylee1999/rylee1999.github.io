@@ -28,7 +28,7 @@ ul.menubar {
 
 @media screen and (max-width: 600px) {
   ul.resize li a {
-    font-size: 2px;
+    font-size: 8px;
     font-family: Arial, sans-serif;
   }
 }
