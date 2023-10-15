@@ -93,7 +93,7 @@ and the sides of the useres screen*/
 @media screen and (max-width: 600px) 
  {
  ul.menubar li a {
-   font-size: 10px;
+   font-size: 13px;
    font-family: Arial, sans-serif;
   }
  #center  {
