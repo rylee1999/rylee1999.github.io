@@ -54,6 +54,21 @@ to make it easier to view on my webpage. From:https://www.w3schools.com/howto/tr
 .scroll img {
   padding: 4px;
 }
+/*ImageOption End*/
+
+/*ResponsiveOption Begin*/
+
+/*I used the responsive navbar code on W3Schools as a reference and modified it to my liking with different colours, font type/size, and padding. 
+From: https://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_horizontal_responsive*/
+
+/*I created a center id to make my headings display in the center of the top of my webpages and be responsive*/
+
+/*I created a format class since I wanted all of my text to be formated within a certain margin so that there were gaps between the paragraphs 
+and the sides of the useres screen*/
+
+/*I made a resize class for all text-focused html tag elements, this changes the font sizes on my webpages based on users device*/
+
+/*I created a smallfont id for the smaller text on my main page, for example where I prompt the user to scroll. I made the font responsive*/
 
 @media screen and (min-width: 601px) 
 {
@@ -95,12 +110,6 @@ to make it easier to view on my webpage. From:https://www.w3schools.com/howto/tr
     font-size:13px;
   }
  }
-
-/*ImageOption End*/
-
-/*ResponsiveOption Begin*/
-/* I created a center id to make my headings display in the center of the top of my webpages and be responsive */
-
 /*ResponsiveOption End*/
 
 /* I wanted all of my text to be formated within a certain margin so that there were gaps between the paragraphs and the sides of the useres screen */
@@ -108,7 +117,6 @@ to make it easier to view on my webpage. From:https://www.w3schools.com/howto/tr
  margin-left: 20px;
  margin-right: 20px;
 }
-
 /*ResponsiveOption Begin*/
 /* I created a responsive class for my images, this would make them smaller for devices like iphones but never change the orginal images size. 
 I did this mainly by using the max-width: 100; and height: auto; declarations. I got this code from: https://www.w3schools.com/css/tryit.asp?filename=tryresponsive_image */ 
@@ -119,9 +127,6 @@ I did this mainly by using the max-width: 100; and height: auto; declarations. I
  margin-left: 10px;
  margin-right: -10px;
 }
-
-/* I made a resize class for all text-focused html tag elements, this changes the font sizes on my webpages based on users device */
-
 /*ResponsiveOption End*/
 
 /* I used code from W3Schools to create a rounded border around my text on my first webpage, 
@@ -150,8 +155,4 @@ From: https://stackoverflow.com/questions/14821087/horizontal-line-and-right-way
  font-weight: bold;
 }
 
-/*ResponsiveOption Begin*/
-/* I created a id for the small messgae I have on my main page, prompting the user to scroll. I made the font responsive. */
-
-/*ResponsiveOption End*/
 
