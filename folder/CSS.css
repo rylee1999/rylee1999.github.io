@@ -26,7 +26,8 @@ ul.menubar {
  padding: 1.2vw 1.2vw;
  text-decoration: none;
  }  
-/*I used colours that i found on the W3Schools to modify the navbar to my liking. From:https://www.w3schools.com/colors/colors_names.asp*/
+/*I used colours that i found on the W3Schools to modify the navbar to my liking. From:https://www.w3schools.com/colors/colors_names.asp
+the the active class is what colour the actively on file is and the not(.active) is white, this is the colour of the navbar when you hover of on of the non-active tabs*/
  ul.menubar li a:hover:not(.active) {
    background-color: white;
  }
@@ -70,7 +71,7 @@ to make it easier to view on my webpage. From:https://www.w3schools.com/howto/tr
 /*ImageOption End*/
 
 /*ResponsiveOption Begin*/
-/* I created a center id to make my headings display in the center of my webpage and be responsive */
+/* I created a center id to make my headings display in the center of the top of my webpages and be responsive */
 @media screen and (min-width: 601px) 
 {
  #center {
