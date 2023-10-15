@@ -100,6 +100,10 @@ ul.menubar {
   }
 }
 
+.format {
+ margin-left: 20px;
+ margin-right: 20px;
+}
 .round {
   border: 6px solid aquamarine;
   border-radius: 40px;
@@ -116,9 +120,6 @@ ul.menubar {
  hr.solid {
   border-top: 3px solid #bbb;
  }
- .format {
- margin-left: 20px;
- margin-right: 20px;
- }
+
 
 
