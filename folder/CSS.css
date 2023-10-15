@@ -93,6 +93,7 @@ ul.menubar {
   border: 6px solid aquamarine;
   border-radius: 40px;
   padding: 10px;
+  margin-bottom: 20px;
 }
 
 @media screen and (max-width: 600px) {
