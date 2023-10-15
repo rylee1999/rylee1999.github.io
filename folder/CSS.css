@@ -105,7 +105,10 @@ ul.menubar {
 .bold {
  font-weight: bold;
 }
- 
+
+.indent {
+ text-indent: 20px;
+} 
  hr.solid {
   border-top: 3px solid #bbb;
  }
