@@ -1,19 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+<!--html validator mentioned to add a language to my html file. From:https://www.w3schools.com/tags/ref_language_codes.asp-->
 <head>
+
+<!--I added the standard viewpoint tag to make my entire html file responsive. From:https://www.w3schools.com/css/css_rwd_viewport.asp-->
+<!--ResponsiveOption Begin-->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--ResponsiveOption End-->
+
+<!--Linking my external css file to this html file. From:https://www.w3schools.com/css/css_howto.asp-->
 <link rel="stylesheet" href="CSS.css">
 <title>index.html</title>
 </head>
-
+  
 <body>
+<!--MenuOption begin-->
 <ul class="menubar">
 <li><a class="active" href="index.html">About Me</a></li>
 <li><a href="Assign2HTML.html">Resume</a></li>
 </ul>
-
+<!--MenuOption End-->
+  
 <h1 id="center">Meet Rylee Goerlitz!</h1>
-
+<!--ImageOption begin-->
+<!--I reference how to create a scrollng gallery on W3Schools and modified it based on my own images and website size requirments.
+From:https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_gallery_scroll-->
 <div class="scroll">
   <img src="image2.jpg" class="responsive" alt="Spotted Salamander">
   <img src="image1.jpg" class="responsive" alt="Girl Holding Milk Snake">
@@ -22,16 +33,17 @@
   <img src="image5.jpg" class="responsive" alt="Stonefly">
   <img src="image6.jpg" class="responsive" alt="Girl Holding Leaf">
 </div>
-
+<!--ImageOption End-->
+  
 <p class="format" id="smallfont">Please scroll to explore the images</p>
-
+<!--ResponsiveOption Begin-->
 <div class="resize format round">
 <p class="indent">I am currently enrolled in the Geographic Information Systems – Cartographic Specialist Program at Sir Sandford Fleming College, School of Environmental and Natural Resource Sciences in Lindsay Ontario. I am also a recent graduate of the Ecosystem Mangagement Technician Program at Fleming College. In that program I gained experience working on ecological monitoring projects, assessing vegetation cover, the soil type and observing wildlife within a study site. In 2021, i also graduated from Brock University, receiving a Bachelor of Science (Honours) in Biology. In my fourth year at Brock, I designed and implemented my honours thesis project which allowed me to develop the ability to identify a wide variety of flora common to Ontario. Additionally, this project enhanced my oral and written communication skills and provided an opportunity to gain hands-on experience in the field. I have also used multiple computer software systems to organize and analyze data collected from these projects, including Microsoft Excel, ArcGIS Pro, and  R Studio. </p> 
 <p></p>
 <p></p>
 <p class="indent">While working at Kawartha Conservation, I gained experieve working independently on projects where I designed watershed and ELC maps with ArcGIS Pro software. I was also involved in surveying dams, bridges, and culverts within the Kawartha and Trent Lakes Municipalities for floodplan mapping. Additionally, while working as a field assistant at 8Trees Inc, I participated in the monitoring, capturing, measuring, and releasing of amphibians and reptiles; specifically, species at risk such as the Massasauga rattlesnake and Fowler’s toad. In addition, I learned how to effectively utilize field guides and identification keys, strengthening my ability to identify the common flora and fauna of Ontario. As well, I have worked at Fleming College’s (Frost Campus) Arboretum and Hatchery. While at the hatchery I have enhanced my knowledge of fish anatomy, diseases, behaviours, and care. Through these experiences, I have gained strong leadership, communication, and time management skills.</p>
 </div>
-
+<!--ResponsiveOption End-->
 </body>
 </html>
 
