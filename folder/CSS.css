@@ -1,5 +1,8 @@
 body {margin: 0;}
 
+h.bold {
+ font-weight: bold;
+}
 ul.menubar {
  list-style-type: none;
  margin: 0;
@@ -114,10 +117,6 @@ ul.menubar {
   border-radius: 40px;
   padding: 10px;
   margin-bottom: 20px;
-}
-
-.bold {
- font-weight: bold;
 }
 
 .indent {
