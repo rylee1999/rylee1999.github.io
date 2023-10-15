@@ -56,10 +56,10 @@ ul.menubar {
 
 @media screen and (min-width: 601px) {
  #center {
+  margin-block-start: 1em;
   text-align: center;
   font-size: 35px;
   font-family: Arial, sans-serif;
-  margin-block-start: 1px;
   margin-bottom: 15px;
   margin-top: 45px;
   }
@@ -67,10 +67,10 @@ ul.menubar {
 
 @media screen and (max-width: 600px) {
  #center  {
+   margin-block-start: 1em;
    text-align: center;
    font-size: 25px;
    font-family: Arial, sans-serif;
-   margin-block-start: 1px;
    margin-bottom: 15px;
    margin-top: 45px;
   }
