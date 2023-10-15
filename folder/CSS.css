@@ -41,11 +41,7 @@ ul.menubar {
 .active {
   background-color: Aquamarine;
  }
- ul.menubar li.left {
- float: left;
-}
-
-
+ 
 .scroll {
   background-color: white;
   overflow: auto;
