@@ -84,6 +84,11 @@ ul.menubar {
   }
 }
 
+.format {
+ margin-left: 20px;
+ margin-right: 20px;
+}
+
 .responsive  {
  max-width: 100%;
  height: auto;
@@ -109,12 +114,6 @@ ul.menubar {
   }
 }
 
-
-.format {
- margin-left: 20px;
- margin-right: 20px;
-}
-
 .round {
   border: 6px solid aquamarine;
   border-radius: 40px;
@@ -129,7 +128,7 @@ ul.menubar {
 .indent {
  text-indent: 20px;
 } 
- .solidline {
+ hr.solidline {
   border-top: 3px solid black;
  }
 
