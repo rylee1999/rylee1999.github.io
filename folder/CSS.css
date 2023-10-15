@@ -1,5 +1,8 @@
 body {margin: 0;}
-h1{font-family: Arial, sans-serif}
+
+h1{font-family: Arial, sans-serif font-weight: bold;}
+p{font-family: Arial, sans-serif;}
+
 ul.menubar {
  list-style-type: none;
  margin: 0;
@@ -94,7 +97,6 @@ ul.menubar {
 {
   .resize {
    font-size: 25px;
-   font-family: Arial, sans-serif;
   }
 }
 
@@ -102,7 +104,6 @@ ul.menubar {
 {
   .resize {
     font-size: 13.5px;
-    font-family: Arial, sans-serif;
   }
 }
 
