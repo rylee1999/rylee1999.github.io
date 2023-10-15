@@ -56,25 +56,22 @@ ul.menubar {
 
 @media screen and (min-width: 601px) {
  #center {
-  margin-block-start: 1em;
-  margin-inline-start: 2px;
-  text-align: center;
-  font-size: 35px;
-  font-family: Arial, sans-serif;
-  margin-bottom: 15px;
-  margin-top: 45px;
+   margin-block-start: 20px;
+   margin-block-end: 20px;
+   text-align: center;
+   font-size: 35px;
+   font-family: Arial, sans-serif;
   }
 }
 
 @media screen and (max-width: 600px) {
  #center  {
-   margin-block-start: 1em;
-   margin-inline-start: 2px;
+   margin-block-start: 20px;
+   margin-block-end: 20px;
    text-align: center;
    font-size: 25px;
    font-family: Arial, sans-serif;
-   margin-bottom: 15px;
-   margin-top: 45px;
+   
   }
 }
  
