@@ -1,8 +1,5 @@
 body {margin: 0;}
 
-h.bold {
- font-weight: bold;
-}
 ul.menubar {
  list-style-type: none;
  margin: 0;
@@ -125,6 +122,8 @@ ul.menubar {
  hr.solidline {
   border-top: 3px solid black;
  }
-
+.bold {
+ font-weight: bold;
+}
 
 
