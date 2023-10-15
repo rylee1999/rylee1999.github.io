@@ -1,12 +1,13 @@
 body {margin: 0;}
-/* I made all text focused html tags be written in arial rather then the default Time New Roman since it is more accessible font to others 
+/*I made all text focused html tags be written in arial rather then the default Time New Roman since it is more accessible font to others 
 From:https://www.w3schools.com/cssref/css_websafe_fonts.php*/
 h1{font-family: Arial, sans-serif;}
 p{font-family: Arial, sans-serif;}
 ul{font-family: Arial, sans-serif;}
 
-/* I used the responsive navbar code on W3Schools as a reference and modified it to my liking with different colours, font type/size, and padding. 
-From: https://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_horizontal_responsive */
+/* MenuOption Begin*/
+/*I used the responsive navbar code on W3Schools as a reference and modified it to my liking with different colours, font type/size, and padding. 
+From: https://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_horizontal_responsive*/
 ul.menubar {
  list-style-type: none;
  margin: 0;
@@ -25,7 +26,7 @@ ul.menubar {
  padding: 1.2vw 1.2vw;
  text-decoration: none;
  }  
-/* I used colours that i found on the W3Schools to modify the navbar to my liking. From:https://www.w3schools.com/colors/colors_names.asp */
+/*I used colours that i found on the W3Schools to modify the navbar to my liking. From:https://www.w3schools.com/colors/colors_names.asp*/
  ul.menubar li a:hover:not(.active) {
    background-color: white;
  }
@@ -33,8 +34,8 @@ ul.menubar {
   background-color: Aquamarine;
  }
 
-/* W3Schools shows different media screen sizes to consider for making your website responsive, 
-so I made my own range to change the font size based on the device the user is using to view website. From:https://www.w3schools.com/css/tryit.asp?filename=tryresponsive_mediaquery */
+/*W3Schools shows different media screen sizes to consider for making your website responsive, 
+so I made my own range to change the font size based on the device the user is using to view website. From:https://www.w3schools.com/css/tryit.asp?filename=tryresponsive_mediaquery*/
 @media screen and (min-width: 601px) 
 {
   ul.menubar li a {
@@ -50,7 +51,9 @@ so I made my own range to change the font size based on the device the user is u
     font-family: Arial, sans-serif;
   }
 }
+/*MenuOption End*/
 
+/*ImageOption Begin*/
 /* I found code from W3Schools to reference to create a scrollable image gallery, I changed elements like background-colour, margins and padding
 to make it easier to view on my webpage. From:https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_gallery_scroll */
 .scroll {
@@ -64,7 +67,9 @@ to make it easier to view on my webpage. From:https://www.w3schools.com/howto/tr
 .scroll img {
   padding: 4px;
 }
+/*ImageOption End*/
 
+/*ResponsiveOption Begin*/
 /* I created a center id to make my headings display in the center of my webpage and be responsive */
 @media screen and (min-width: 601px) 
 {
@@ -87,11 +92,15 @@ to make it easier to view on my webpage. From:https://www.w3schools.com/howto/tr
    font-size: 22px;
   }
 }
+/*ResponsiveOption End*/
+
 /* I wanted all of my text to be formated within a certain margin so that there were gaps between the paragraphs and the sides of the useres screen */
 .format {
  margin-left: 20px;
  margin-right: 20px;
 }
+
+/*ResponsiveOption Begin*/
 /* I created a responsive class for my images, this would make them smaller for devices like iphones but never change the orginal images size. 
 I did this mainly by using the max-width: 100; and height: auto; declarations. I got this code from: https://www.w3schools.com/css/tryit.asp?filename=tryresponsive_image */ 
 .responsive  {
@@ -116,6 +125,8 @@ I did this mainly by using the max-width: 100; and height: auto; declarations. I
     font-size: 13.5px;
   }
 }
+/*ResponsiveOption End*/
+
 /* I used code from W3Schools to create a rounded border around my text on my first webpage, 
 modifyng it to better fit within my webpage and suite my persoanl peferences. From:https://www.w3schools.com/css/tryit.asp?filename=trycss_border_round */
 .round {
@@ -141,6 +152,8 @@ From: https://stackoverflow.com/questions/14821087/horizontal-line-and-right-way
 .bold {
  font-weight: bold;
 }
+
+/*ResponsiveOption Begin*/
 /* I created a id for the small messgae I have on my main page, prompting the user to scroll. I made the font responsive. */
  @media screen and (min-width: 601px) 
 {
@@ -155,4 +168,5 @@ From: https://stackoverflow.com/questions/14821087/horizontal-line-and-right-way
     font-size:13px;
   }
 }
+/*ResponsiveOption End*/
 
