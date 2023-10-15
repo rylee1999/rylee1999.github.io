@@ -37,21 +37,7 @@ the the active class is what colour the actively on file is and the not(.active)
 
 /*W3Schools shows different media screen sizes to consider for making your website responsive, 
 so I made my own range to change the font size based on the device the user is using to view website. From:https://www.w3schools.com/css/tryit.asp?filename=tryresponsive_mediaquery*/
-@media screen and (min-width: 601px) 
-{
-  ul.menubar li a {
-   font-size: 24px;
-   font-family: Arial, sans-serif;
-  }
-}
 
-@media screen and (max-width: 600px) 
-{
-  ul.menubar li a {
-    font-size: 10px;
-    font-family: Arial, sans-serif;
-  }
-}
 /*MenuOption End*/
 
 /*ImageOption Begin*/
@@ -68,12 +54,13 @@ to make it easier to view on my webpage. From:https://www.w3schools.com/howto/tr
 .scroll img {
   padding: 4px;
 }
-/*ImageOption End*/
 
-/*ResponsiveOption Begin*/
-/* I created a center id to make my headings display in the center of the top of my webpages and be responsive */
 @media screen and (min-width: 601px) 
 {
+ ul.menubar li a {
+   font-size: 24px;
+   font-family: Arial, sans-serif;
+  }
  #center {
    margin-top: 20px; 
    margin-block-start: 45px;
@@ -81,10 +68,19 @@ to make it easier to view on my webpage. From:https://www.w3schools.com/howto/tr
    text-align: center;
    font-size: 35px;
   }
-}
-
+ .resize {
+   font-size: 25px;
+  }
+ #smallfont {
+   font-size: 18px;
+   }
+ }
 @media screen and (max-width: 600px) 
-{
+ {
+ ul.menubar li a {
+   font-size: 10px;
+   font-family: Arial, sans-serif;
+  }
  #center  {
    margin-top: 20px;
    margin-block-start: 20px;
@@ -92,7 +88,19 @@ to make it easier to view on my webpage. From:https://www.w3schools.com/howto/tr
    text-align: center;
    font-size: 22px;
   }
-}
+ .resize {
+   font-size: 13.5px;
+  }
+  #smallfont {
+    font-size:13px;
+  }
+ }
+
+/*ImageOption End*/
+
+/*ResponsiveOption Begin*/
+/* I created a center id to make my headings display in the center of the top of my webpages and be responsive */
+
 /*ResponsiveOption End*/
 
 /* I wanted all of my text to be formated within a certain margin so that there were gaps between the paragraphs and the sides of the useres screen */
@@ -113,19 +121,7 @@ I did this mainly by using the max-width: 100; and height: auto; declarations. I
 }
 
 /* I made a resize class for all text-focused html tag elements, this changes the font sizes on my webpages based on users device */
- @media screen and (min-width: 601px) 
-{
-  .resize {
-   font-size: 25px;
-  }
-}
 
-@media screen and (max-width: 600px) 
-{
-  .resize {
-    font-size: 13.5px;
-  }
-}
 /*ResponsiveOption End*/
 
 /* I used code from W3Schools to create a rounded border around my text on my first webpage, 
@@ -156,18 +152,6 @@ From: https://stackoverflow.com/questions/14821087/horizontal-line-and-right-way
 
 /*ResponsiveOption Begin*/
 /* I created a id for the small messgae I have on my main page, prompting the user to scroll. I made the font responsive. */
- @media screen and (min-width: 601px) 
-{
-  #smallfont {
-   font-size: 18px;
-  }
-}
 
-@media screen and (max-width: 600px) 
-{
-  #smallfont {
-    font-size:13px;
-  }
-}
 /*ResponsiveOption End*/
 
