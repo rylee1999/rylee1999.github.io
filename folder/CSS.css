@@ -58,6 +58,7 @@ ul.menubar {
  #center {
    margin-block-start: 45px;
    margin-block-end: 45px;
+   margin-top: 20px;
    text-align: center;
    font-size: 35px;
    font-family: Arial, sans-serif;
@@ -68,6 +69,7 @@ ul.menubar {
  #center  {
    margin-block-start: 20px;
    margin-block-end: 20px;
+   margin-top: 20px;
    text-align: center;
    font-size: 25px;
    font-family: Arial, sans-serif;
