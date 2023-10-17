@@ -129,8 +129,8 @@ and the sides of the useres screen*/
 /* I created a responsive class for my images, this would make them smaller for devices like iphones but never change the orginal images size. 
 I did this mainly by using the max-width: 100; and height: auto; declarations. I got this code from: https://www.w3schools.com/css/tryit.asp?filename=tryresponsive_image */ 
 .responsive  {
- max-width: 500px;
  width: 100%;
+ max-width: 500px;
  height: auto;
  margin-top: 20px;
  margin-left: 10px;
