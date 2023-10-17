@@ -1,9 +1,15 @@
 body {margin: 0;}
 /*I made all text focused html tags be written in arial rather then the default Time New Roman since it is more accessible font to others 
 From:https://www.w3schools.com/cssref/css_websafe_fonts.php*/
-h1{font-family: Arial, sans-serif;}
-p{font-family: Arial, sans-serif;}
-ul{font-family: Arial, sans-serif;}
+h1 {
+ font-family: Arial, sans-serif;
+}
+p {
+ font-family: Arial, sans-serif;
+}
+ul {
+ font-family: Arial, sans-serif;
+}
 
 /* MenuOption Begin*/
 /*I used the responsive navbar code on W3Schools as a reference and modified it to my liking with different colours, font type/size, and padding. 
