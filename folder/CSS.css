@@ -1,4 +1,6 @@
-body {margin: 0;}
+body {
+ margin: 0;
+}
 /*I made all text focused html tags be written in arial rather then the default Time New Roman since it is more accessible font to others 
 From:https://www.w3schools.com/cssref/css_websafe_fonts.php*/
 h1 {
