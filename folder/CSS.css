@@ -130,7 +130,8 @@ and the sides of the useres screen*/
 I did this mainly by using the max-width: 100; and height: auto; declarations. I got this code from: https://www.w3schools.com/css/tryit.asp?filename=tryresponsive_image */ 
 .responsive  {
  max-width: 500px;
- max-height: 400px;
+ width: 100%;
+ height: auto;
  margin-top: 20px;
  margin-left: 10px;
  margin-right: -10px;
