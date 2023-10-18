@@ -1,0 +1,165 @@
+body {
+ margin: 0;
+}
+/*I made all text focused html tags be written in arial rather then the default Time New Roman since it is more accessible font to others 
+From:https://www.w3schools.com/cssref/css_websafe_fonts.php*/
+h1 {
+ font-family: Arial, sans-serif;
+}
+p {
+ font-family: Arial, sans-serif;
+}
+ul {
+ font-family: Arial, sans-serif;
+}
+
+/* MenuOption Begin*/
+/*I used the responsive navbar code on W3Schools as a reference and modified it to my liking with different colours, font type/size, and padding. 
+From: https://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_horizontal_responsive*/
+ul.menubar {
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+ overflow: hidden;
+ background-color:LightGray;
+ 
+ }
+ ul.menubar li {
+ float:left;
+ }
+ ul.menubar li a {
+ display: block;
+ color: black;
+ text-align: center;
+ padding: 1.2vw 1.2vw;
+ text-decoration: none;
+ }  
+/*I used colours that i found on the W3Schools to modify the navbar to my liking. From:https://www.w3schools.com/colors/colors_names.asp
+the the active class is what colour the actively on file is and the not(.active) is white, this is the colour of the navbar when you hover of on of the non-active tabs*/
+ ul.menubar li a:hover:not(.active) {
+   background-color: white;
+ }
+.active {
+  background-color: Aquamarine;
+ }
+
+/*W3Schools shows different media screen sizes to consider for making your website responsive, 
+so I made my own range to change the font size based on the device the user is using to view website. From:https://www.w3schools.com/css/tryit.asp?filename=tryresponsive_mediaquery*/
+
+/*MenuOption End*/
+
+/*ImageOption Begin*/
+/* I found code from W3Schools to reference to create a scrollable image gallery, I changed elements like background-colour, margins and padding
+to make it easier to view on my webpage. From:https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_gallery_scroll */
+.scroll {
+  background-color: white;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 0px;
+  margin-bottom: 10px;
+}
+
+.scroll img {
+  padding: 4px;
+}
+/*ImageOption End*/
+
+/*ResponsiveOption Begin*/
+
+/*I used the responsive navbar code on W3Schools as a reference and modified it to my liking with different colours, font type/size, and padding. 
+From: https://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_horizontal_responsive*/
+
+/*I created a center id to make my headings display in the center of the top of my webpages and be responsive*/
+
+/*I created a format class since I wanted all of my text to be formated within a certain margin so that there were gaps between the paragraphs 
+and the sides of the useres screen*/
+
+/*I made a resize class for all text-focused html tag elements, this changes the font sizes on my webpages based on users device*/
+
+/*I created a smallfont id for the smaller text on my main page, for example where I prompt the user to scroll. I made the font responsive*/
+
+@media screen and (min-width: 601px) 
+{
+ ul.menubar li a {
+   font-size: 24px;
+   font-family: Arial, sans-serif;
+  }
+ #center {
+   margin-top: 20px; 
+   margin-block-start: 45px;
+   margin-block-end: 45px;
+   text-align: center;
+   font-size: 35px;
+  }
+ .resize {
+   font-size: 25px;
+  }
+ #smallfont {
+   font-size: 18px;
+   }
+ }
+@media screen and (max-width: 600px) 
+ {
+ ul.menubar li a {
+   font-size: 13px;
+   font-family: Arial, sans-serif;
+  }
+ #center  {
+   margin-top: 20px;
+   margin-block-start: 20px;
+   margin-block-end: 20px;
+   text-align: center;
+   font-size: 22px;
+  }
+ .resize {
+   font-size: 13.5px;
+  }
+  #smallfont {
+    font-size:13px;
+  }
+ }
+/*ResponsiveOption End*/
+
+/* I wanted all of my text to be formated within a certain margin so that there were gaps between the paragraphs and the sides of the useres screen */
+.format {
+ margin-left: 20px;
+ margin-right: 20px;
+}
+/*ResponsiveOption Begin*/
+/* I created a responsive class for my images, this would make them smaller for devices like iphones but never change the orginal images size. 
+I did this mainly by using the max-width: 100; and height: auto; declarations. I got this code from: https://www.w3schools.com/css/tryit.asp?filename=tryresponsive_image */ 
+.responsive  {
+ width: 100%;
+ max-width: 500px;
+ height: auto;
+ margin-top: 20px;
+ margin-right: -10px;
+}
+/*ResponsiveOption End*/
+
+/* I used code from W3Schools to create a rounded border around my text on my first webpage, 
+modifyng it to better fit within my webpage and suite my persoanl peferences. From:https://www.w3schools.com/css/tryit.asp?filename=trycss_border_round */
+.round {
+  border: 6px solid aquamarine;
+  border-radius: 40px;
+  padding: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+/* Modified the code to make it better fit my pages requirments. From:https://www.w3schools.com/cssref/pr_text_text-indent.php. */
+.indent {
+ text-indent: 20px;
+} 
+
+/* I found code online that displayed how to create a solid horixontal line on my page, using a <hr> tage. 
+From: https://stackoverflow.com/questions/14821087/horizontal-line-and-right-way-to-code-it-in-html-css */
+ hr.solidline {
+  border-top: 3px solid black;
+ }
+
+/* From:https://www.w3schools.com/cssref/pr_font_weight.php */
+.bold {
+ font-weight: bold;
+}
+
